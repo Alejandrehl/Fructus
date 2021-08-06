@@ -10,7 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     var body: some View {
         TabView{
-            FruitCardView()
+            ForEach(0..<5) {item in FruitCardView()}
         }
         .tabViewStyle(PageTabViewStyle())
         .padding(.vertical, 20)
