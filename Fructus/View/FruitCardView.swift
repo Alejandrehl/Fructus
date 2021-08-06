@@ -12,7 +12,7 @@ struct FruitCardView: View {
     
     // Body
     var body: some View {
-        VStack {
+        ZStack {
             VStack(spacing: 20) {
                 Image("blueberry")
                     .resizable()
@@ -21,7 +21,7 @@ struct FruitCardView: View {
                 
                 Text("BlueBerry")
             }
-        }
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("ColorBlueBerryLight"), Color("ColorBlueBerryDark")]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
     }
 }
 
