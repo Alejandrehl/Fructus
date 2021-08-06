@@ -12,8 +12,9 @@ struct StartButtonView: View {
         Button(action: {
             print("Exit the onboarding")
         }) {
-            HStack {
+            HStack(spacing: 8) {
                 Text("Start")
+                Image(systemName: "arrow.right.circle")
             }
         }
         .accentColor(Color.white)
