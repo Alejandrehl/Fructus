@@ -9,12 +9,17 @@ import SwiftUI
 
 struct StartButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Exit the onboarding")
+        }) {
+            Text("Start")
+        }
     }
 }
 
 struct StartButtonView_Previews: PreviewProvider {
     static var previews: some View {
         StartButtonView()
+            .previewLayout(.sizeThatFits)
     }
 }
