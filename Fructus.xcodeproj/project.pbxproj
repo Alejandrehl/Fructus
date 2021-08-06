@@ -95,7 +95,6 @@
 		4054DD5E26BCB99F00507A7F /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				4054DD5F26BCB99F00507A7F /* FructusApp.swift */,
 				4054DD8A26BCCE4400507A7F /* App */,
 				4054DD6326BCB9A000507A7F /* Assets.xcassets */,
 				4054DD6826BCB9A000507A7F /* Info.plist */,
@@ -133,6 +132,7 @@
 		4054DD8A26BCCE4400507A7F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4054DD5F26BCB99F00507A7F /* FructusApp.swift */,
 				4054DD6126BCB99F00507A7F /* ContentView.swift */,
 			);
 			path = App;
