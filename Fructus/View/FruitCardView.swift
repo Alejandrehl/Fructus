@@ -22,6 +22,7 @@ struct FruitCardView: View {
                 Text("BlueBerry")
             }
         }.background(LinearGradient(gradient: Gradient(colors: [Color("ColorBlueBerryLight"), Color("ColorBlueBerryDark")]), startPoint: .top, endPoint: .bottom))
+        .cornerRadius(20)
     }
 }
 
