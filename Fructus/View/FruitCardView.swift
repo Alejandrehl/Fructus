@@ -29,6 +29,8 @@ struct FruitCardView: View {
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .frame(maxWidth: 480)
+                
+                StartButtonView()
             }
         }
         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 0, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
