@@ -12,13 +12,15 @@ struct FruitCardView: View {
     
     // Body
     var body: some View {
-        VStack(spacing: 20) {
-            Image("blueberry")
-                .resizable()
-                .scaledToFit()
-                .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
-            
-            Text("BlueBerry")
+        VStack {
+            VStack(spacing: 20) {
+                Image("blueberry")
+                    .resizable()
+                    .scaledToFit()
+                    .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
+                
+                Text("BlueBerry")
+            }
         }
     }
 }
