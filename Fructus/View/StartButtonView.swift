@@ -17,7 +17,9 @@ struct StartButtonView: View {
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             }
-            .padding(.horizontal)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(Capsule().strokeBorder(Color.white, lineWidth: 1.25))
         }
         .accentColor(Color.white)
     }
