@@ -25,6 +25,9 @@ struct FruitRowView: View {
                 Text(fruit.title)
                     .font(.title2)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                Text(fruit.headline)
+                    .font(.caption)
+                    .foregroundColor(Color.secondary)
             }
         }
     }
