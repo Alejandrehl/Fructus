@@ -19,6 +19,7 @@
 		40D19CD126BDD16C009036F6 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CD026BDD16C009036F6 /* FruitModel.swift */; };
 		40D19CD426BDD26F009036F6 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CD326BDD26F009036F6 /* FruitData.swift */; };
 		40D19CD726BDE38D009036F6 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CD626BDE38D009036F6 /* FruitRowView.swift */; };
+		40D19CD926BEE3EF009036F6 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CD826BEE3EF009036F6 /* FruitDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		40D19CD026BDD16C009036F6 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		40D19CD326BDD26F009036F6 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		40D19CD626BDE38D009036F6 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		40D19CD826BEE3EF009036F6 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				4054DD5F26BCB99F00507A7F /* FructusApp.swift */,
 				4054DD6126BCB99F00507A7F /* ContentView.swift */,
 				40D19CCD26BDC644009036F6 /* OnboardingView.swift */,
+				40D19CD826BEE3EF009036F6 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				4054DD8D26BCD1E800507A7F /* FruitCardView.swift in Sources */,
 				40D19CD726BDE38D009036F6 /* FruitRowView.swift in Sources */,
 				40D19CCC26BD859A009036F6 /* StartButtonView.swift in Sources */,
+				40D19CD926BEE3EF009036F6 /* FruitDetailView.swift in Sources */,
 				4054DD6226BCB99F00507A7F /* ContentView.swift in Sources */,
 				40D19CCE26BDC644009036F6 /* OnboardingView.swift in Sources */,
 				40D19CD126BDD16C009036F6 /* FruitModel.swift in Sources */,
