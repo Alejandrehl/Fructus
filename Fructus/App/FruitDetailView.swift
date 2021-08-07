@@ -14,7 +14,9 @@ struct FruitDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
-                    Text(fruit.title)
+                    VStack(alignment: .leading, spacing: 20) {
+                        Text(fruit.title)
+                    }
                 }
             }
         }
