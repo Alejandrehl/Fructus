@@ -12,8 +12,9 @@ struct OnboardingView: View {
     
     var body: some View {
         TabView{
-            ForEach(fruits[0..<fruits.count]){
-                item in FruitCardView(fruit: item)
+            ForEach(fruits){
+                item in
+                FruitCardView(fruit: item)
             }
         }
         .tabViewStyle(PageTabViewStyle())
