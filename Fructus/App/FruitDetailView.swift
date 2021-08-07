@@ -17,6 +17,8 @@ struct FruitDetailView: View {
                     VStack(alignment: .leading, spacing: 20) {
                         Text(fruit.title)
                     }
+                    .padding(.horizontal, 20)
+                    .frame(maxWidth: 640, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
             }
         }
