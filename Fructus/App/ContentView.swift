@@ -12,9 +12,10 @@ struct ContentView: View {
     
     var body: some View {
         List{
-            ForEach(fruits){
+            ForEach(fruits.shuffled()){
                 item in
                 FruitRowView(fruit: item)
+                    .padding(.vertical, 4)
             }
         }
     }
