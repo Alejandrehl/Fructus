@@ -23,6 +23,7 @@
 		40D19CDB26C0282C009036F6 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CDA26C0282C009036F6 /* FruitHeaderView.swift */; };
 		40D19CDD26C0300E009036F6 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CDC26C0300E009036F6 /* SourceLinkView.swift */; };
 		40D19CDF26C03B14009036F6 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CDE26C03B14009036F6 /* FruitNutrientsView.swift */; };
+		40D19CE126C06744009036F6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D19CE026C06744009036F6 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		40D19CDA26C0282C009036F6 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		40D19CDC26C0300E009036F6 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		40D19CDE26C03B14009036F6 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		40D19CE026C06744009036F6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				4054DD6126BCB99F00507A7F /* ContentView.swift */,
 				40D19CCD26BDC644009036F6 /* OnboardingView.swift */,
 				40D19CD826BEE3EF009036F6 /* FruitDetailView.swift */,
+				40D19CE026C06744009036F6 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				40D19CCE26BDC644009036F6 /* OnboardingView.swift in Sources */,
 				40D19CD126BDD16C009036F6 /* FruitModel.swift in Sources */,
 				4054DD6026BCB99F00507A7F /* FructusApp.swift in Sources */,
+				40D19CE126C06744009036F6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
