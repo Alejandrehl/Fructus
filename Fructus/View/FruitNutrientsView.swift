@@ -22,7 +22,7 @@ struct FruitNutrientsView: View {
                         }
                         .foregroundColor(fruit.gradientColors[1])
                         .font(Font.system(.body).bold())
-                        Spacer()
+                        Spacer(minLength: 25)
                         Text(fruit.nutrition[item])
                     }
                 }
