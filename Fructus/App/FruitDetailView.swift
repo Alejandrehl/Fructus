@@ -18,6 +18,8 @@ struct FruitDetailView: View {
                     Text("HEADER")
                     VStack(alignment: .leading, spacing: 20) {
                         Text(fruit.title)
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
                         
                     }
                     .padding(.horizontal, 20)
