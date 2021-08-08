@@ -11,7 +11,12 @@ struct FruitHeaderView: View {
     var fruit: Fruit
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .topLeading, endPoint: .bottomLeading)
+            
+            Image(fruit.image)
+        }
+        .frame(height: 440)
     }
 }
 
