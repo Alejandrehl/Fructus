@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
@@ -15,6 +17,11 @@ struct SettingsView: View {
                     Text("Hello")
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
+                .navigationBarItems(trailing: Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }) {
+                    Image(systemName: "xmark")
+                })
                 .padding()
             }
         }
