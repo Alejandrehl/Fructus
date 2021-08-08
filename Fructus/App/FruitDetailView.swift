@@ -33,6 +33,7 @@ struct FruitDetailView: View {
                         Text(fruit.description)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
+                        SourceLinkView()
                     }
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
