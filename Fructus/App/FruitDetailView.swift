@@ -15,6 +15,7 @@ struct FruitDetailView: View {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
                     FruitHeaderView(fruit: fruit)
+                    
                     VStack(alignment: .leading, spacing: 20) {
                         Text(fruit.title)
                             .font(.largeTitle)
