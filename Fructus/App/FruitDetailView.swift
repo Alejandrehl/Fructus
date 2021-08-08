@@ -14,8 +14,11 @@ struct FruitDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
+                    // HEADER
+                    Text("HEADER")
                     VStack(alignment: .leading, spacing: 20) {
                         Text(fruit.title)
+                        
                     }
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
