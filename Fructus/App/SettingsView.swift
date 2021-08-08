@@ -11,9 +11,10 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
-                VStack {
+                VStack(spacing: 20) {
                     Text("Hello")
                 }
+                .navigationBarTitle(Text("Settings"), displayMode: .large)
             }
         }
     }
