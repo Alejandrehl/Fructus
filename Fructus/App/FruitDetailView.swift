@@ -20,6 +20,7 @@ struct FruitDetailView: View {
                         Text(fruit.title)
                             .font(.largeTitle)
                             .fontWeight(.heavy)
+                            .foregroundColor(fruit.gradientColors[1])
                         
                     }
                     .padding(.horizontal, 20)
