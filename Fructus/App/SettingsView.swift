@@ -15,6 +15,7 @@ struct SettingsView: View {
                     Text("Hello")
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
+                .padding()
             }
         }
     }
