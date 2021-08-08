@@ -20,6 +20,8 @@ struct FruitNutrientsView: View {
                             Image(systemName: "info.circle")
                             Text(nutrients[item])
                         }
+                        .foregroundColor(fruit.gradientColors[1])
+                        .font(Font.system(.body).bold())
                         Spacer()
                         Text(fruit.nutrition[item])
                     }
