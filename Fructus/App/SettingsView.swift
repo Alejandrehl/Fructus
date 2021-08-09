@@ -34,7 +34,7 @@ struct SettingsView: View {
                     }
                     
                     GroupBox(label: HStack {
-                        SettingsLabelView(labelText: "Fructus", labelImage: "apps.iphone")
+                        SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
                     })
                     {
                         Divider().padding(.vertical, 4)
