@@ -14,7 +14,15 @@ struct SettingsView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 20) {
-                    Text("Hello")
+                    
+                    GroupBox(label: HStack {
+                        Text("Fructus".uppercased()).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        Spacer()
+                        Image(systemName: "info.circle")
+                    })
+                    {
+                        Text("Hello World")
+                    }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(trailing: Button(action: {
