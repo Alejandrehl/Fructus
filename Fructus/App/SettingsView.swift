@@ -19,7 +19,11 @@ struct SettingsView: View {
                         SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     })
                     {
-                        Text("Hello World")
+                        Divider().padding(.vertical, 4)
+                        
+                        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 10) {
+                            Text("Hello World")
+                        }
                     }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
