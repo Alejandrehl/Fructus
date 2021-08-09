@@ -32,6 +32,20 @@ struct SettingsView: View {
                                 .font(.footnote)
                         }
                     }
+                    
+                    GroupBox(label: HStack {
+                        SettingsLabelView(labelText: "Fructus", labelImage: "apps.iphone")
+                    })
+                    {
+                        Divider().padding(.vertical, 4)
+                        
+                        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 10) {
+                            Text("Developer")
+                                .foregroundColor(.gray)
+                            Spacer()
+                            Text("Alejandro Hernández")
+                        }
+                    }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(trailing: Button(action: {
