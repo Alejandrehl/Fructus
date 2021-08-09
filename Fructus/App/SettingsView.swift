@@ -16,9 +16,7 @@ struct SettingsView: View {
                 VStack(spacing: 20) {
                     
                     GroupBox(label: HStack {
-                        Text("Fructus".uppercased()).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        Spacer()
-                        Image(systemName: "info.circle")
+                        SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     })
                     {
                         Text("Hello World")
