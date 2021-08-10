@@ -38,13 +38,10 @@ struct SettingsView: View {
                     })
                     {
                         Divider().padding(.vertical, 4)
-                        
-                        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 10) {
-                            Text("Developer")
-                                .foregroundColor(.gray)
-                            Spacer()
-                            Text("Alejandro Hernández")
-                        }
+                        SettingsRowView(name: "Developer", content: "Alejandro Hernández")
+                        SettingsRowView(name: "Designer", content: "Robert Petras")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
                     }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
