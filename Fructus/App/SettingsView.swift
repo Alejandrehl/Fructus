@@ -37,11 +37,14 @@ struct SettingsView: View {
                         SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
                     })
                     {
-                        Divider().padding(.vertical, 4)
                         SettingsRowView(name: "Developer", content: "Alejandro Hernández")
                         SettingsRowView(name: "Designer", content: "Robert Petras")
                         SettingsRowView(name: "Compatibility", content: "iOS 14")
                         SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+                        SettingsRowView(name: "Github", linkLabel: "@alejandrehl", linkDestination: "github.com/alejandrehl")
+                        SettingsRowView(name: "Twitter", linkLabel: "@alehernandezdev", linkDestination: "twitter.com/alehernandezdev")
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
                     }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
