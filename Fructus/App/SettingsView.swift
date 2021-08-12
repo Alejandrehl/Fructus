@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
-    @AppStorage("IsOnboarding") var isOnboarding: Bool = false
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     var body: some View {
         NavigationView {
