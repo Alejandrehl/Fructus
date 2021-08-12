@@ -34,6 +34,20 @@ struct SettingsView: View {
                     }
                     
                     GroupBox(label: HStack {
+                        SettingsLabelView(labelText: "Customization", labelImage: "paintbrush")
+                    })
+                    {
+                        Divider().padding(.vertical, 4)
+                        
+                        Text("If you wish you can restart the application by toggle the switch in this box. That way it starts the onboarding process and you will see the welcome screen again.")
+                            .padding(.vertical, 8)
+                            .frame(minHeight: 60)
+                            .layoutPriority(1)
+                            .font(.footnote)
+                            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                    }
+                    
+                    GroupBox(label: HStack {
                         SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
                     })
                     {
