@@ -50,6 +50,8 @@ struct SettingsView: View {
                         Toggle(isOn: $isOnboarding) {
                             Text("Restart".uppercased())
                         }
+                        .padding()
+                        .background(Color(UIColor.tertiarySystemBackground).clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/, style: .continuous)))
                     }
                     
                     GroupBox(label: HStack {
