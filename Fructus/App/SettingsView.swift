@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("IsOnboarding") var isOnboarding: Bool = false
     
     var body: some View {
         NavigationView {
@@ -45,6 +46,10 @@ struct SettingsView: View {
                             .layoutPriority(1)
                             .font(.footnote)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                        
+                        Toggle(isOn: $isOnboarding) {
+                            Text("Restart".uppercased())
+                        }
                     }
                     
                     GroupBox(label: HStack {
