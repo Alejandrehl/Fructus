@@ -48,10 +48,18 @@ struct SettingsView: View {
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                         
                         Toggle(isOn: $isOnboarding) {
-                            Text("Restart".uppercased())
+                            if isOnboarding {
+                                Text("Restarted".uppercased())
+                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                    .foregroundColor(Color.green)
+                            } else {
+                                Text("Restart".uppercased())
+                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                    .foregroundColor(Color.secondary)
+                            }
                         }
                         .padding()
-                        .background(Color(UIColor.tertiarySystemBackground).clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/, style: .continuous)))
+                        .background(Color(UIColor.tertiarySystemBackground).clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous)))
                     }
                     
                     GroupBox(label: HStack {
